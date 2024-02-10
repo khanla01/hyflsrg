@@ -1,0 +1,404 @@
+* {
+  
+  padding: 0%;
+  margin: 0;
+  
+  
+}
+
+
+.updatetable{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.updatetable th,td {
+  border: 1px solid #ddd;
+  padding: 5px;
+  text-align: center;
+}
+
+.updatetable th {
+  background-color: #ddd;
+}
+
+.updatetable td {
+  height: 30px;
+}
+
+.updatetable td:first-child {
+  background-color: #f5f5f5;
+}
+
+.updatetable td:empty {
+  background-color: #ffebec;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  width: 100%;
+background-color: bisque;
+}
+.notice-board {
+  background-color: green;
+  padding: 10px;
+  color: white;
+}
+
+
+
+
+.hyfl{
+  display: flex;
+  gap: 50px;
+  background-color: #BBD0EC;
+  
+}
+
+.media{
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr  0.1fr 0.1fr;
+  gap: 10px;
+  
+  }
+  
+  .calendar th,td{
+    font-size: 15px;
+  }
+.calendar h1{
+  font-size: 15px;
+  text-align: center;
+}
+.calendar {
+  border: 5px solid black;
+  
+}
+ .calendar td:empty{
+  background-color: #FAE7F3;
+ }
+
+
+
+
+.update1{
+  
+  width: 500px;
+
+  
+}
+.updatetable{
+  width: 500px;
+  height: 50px;
+  margin-top: 10px;
+}
+tr:hover td.viladat {
+  background-color: green;
+  color: white;
+}
+tr:hover td.shahadat {background-color: red;
+  color: white;
+}
+
+
+.logo{
+  background-color:black;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+
+
+}
+.logo img{
+  height: 60px;
+  float: left;
+width: 100px;
+border-radius: 50%;
+padding-top: 5px;
+padding-left: 5px
+}
+.logo ul{
+  display: flex;
+  gap: 70px;
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+ padding: 20px;
+ padding-top: 30px;
+}
+.logo ul li a{
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #3c4043;
+  border-radius: 20px;
+  padding: 10px;
+}
+ nav ul li a:hover   {
+  background-color: yellow;
+  color: black;
+  transition: color 0.3s ease;
+}  
+
+
+
+
+.slideshow-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.mySlides{
+  display: none;
+}
+
+.mySlides:first-child {
+  display: block;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+.mySlides{
+  height:auto;
+  width: 100%;
+}
+.mySlides img{
+width: 100%;
+height: 1000px;
+
+}
+.container12 {
+  width: 100%;
+  overflow: hidden;
+  padding-left: 10px;
+  background-color:wheat;
+  margin-top: 10px;
+  border: 5px solid black;
+  border-radius: 30px;
+  
+}
+
+.container12 img {
+  float: left;
+  width: 300px;
+  margin-right: 2rem;
+  height: 300px;
+ border: 2px solid black;
+  border-radius: 20%;
+  margin-top: 30px;
+
+}
+
+.container12 p {
+  width: 50%;
+  float: left;
+  margin-left: 200PX;
+  font-size: 20PX;
+  font-family: brush script MT , cursive;
+  background-color: white;
+  padding: 10px;
+  
+}
+.about{
+  width: 100%;
+ font-size: large;
+  height: 100PX;
+  background-color: #FFE7E7;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 50px;
+}
+
+@media (min-width:319px) and (max-width:600px) 
+  {
+    *{
+      padding: 0px;
+      margin: 0px;
+    }
+
+
+
+    .logo{
+  background-color: black;
+    width: 20px;
+  }
+  .logo img{
+    height: 39px;
+    width: 39px;
+    margin-top: 19px;
+    margin-left: 10px;
+  }
+  .navbar{
+    background-color: black;
+  }
+  
+  .logo ul li a{
+    background-color: black;
+    height: 10px;
+    width: px;
+    color: white;
+    border:2px solid #3c4043 ;
+  gap: 10px;
+    display: flex;
+    margin-left: 20px;
+    
+    font-size: 7px;
+    
+    
+   
+   }
+   .logo ul{
+    gap: 10px;
+    text-align: center;
+
+   }
+   
+
+
+
+   .hyfl{
+    display: block;
+    gap: 50px;
+    background-color: #BBD0EC;
+    
+  }
+  
+  .media{
+    
+    display: block;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr  0.1fr 0.1fr;
+    gap: 10px;
+    
+    }
+    
+    .calendar th,td{
+      font-size: 33px;
+          }
+  .calendar h1{
+    font-size: 15px;
+    text-align: center;
+  }
+  .calendar {
+    border: 5px solid black;
+    margin-left: 10px;
+    
+  }
+   .calendar td:empty{
+    background-color: #FAE7F3;
+   }
+  
+  
+  
+  
+  .update1{
+    
+    width: 400px;
+  
+    
+  }
+  .updatetable {
+    width: 400px;
+    height: 50px;
+    margin-top: 10px;
+  }
+  .update1 th{
+    font-size: 13px;
+  }
+  .update1 td{
+    font-size: 13px;
+  }
+
+
+
+
+
+  tr:hover td.viladat {
+    background-color: green;
+    color: white;
+  }
+  tr:hover td.shahadat {background-color: red;
+    color: white;
+  }
+  
+    
+   
+  }
+  aside h1{
+    height: 50px;
+   text-align: center;
+  padding-top: 20px;
+background-color: white;}
+
+
+.direction img {
+  height: 50px;
+  width: 50px;
+
+}
+.shop{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ 
+}
+
+.direction,a,h3{
+  padding-left: 40px;
+  font-size: 20px;
+}
+.PHONE img{
+  padding-top: 50px;
+}
+.sara{
+  font-size: 20px;
+  font-style: italic;
+}
+.sara h2{
+  font-size: 20px;
+  font-style: italic;
+  font-family:  brush script MT , cursive;
+  padding-left: 200px;
+  color: white;
+  background-color: BLACK;
+  font-weight: 50PX;
+}
+.social img{
+height: 50px;
+width: 50px;
+border: 1px solid brown;
+border-radius: 50%;
+margin-top: 30px;
+}
+.social{
+  display: flex;
+  justify-content: space-evenly;
+  height: 100px;
+  background-color: black;
+}
+.social>h4{
+  color: white;
+  margin-top: 50px;
+}
+.ads{
+  background-image: url(image/shop2.jpg);
+}
+
+
+
